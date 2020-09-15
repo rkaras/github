@@ -1,0 +1,7 @@
+#!/bin/sh -ex
+
+flake8 skylla --exclude=skylla/db/migrations
+mypy skylla
+
+black --check skylla --diff
+isort --recursive --check-only skylla

@@ -1,0 +1,3 @@
+#!/bin/sh -ex
+
+pytest --cov=skylla --cov=tests --cov-report=term-missing --cov-config=setup.cfg ${@}

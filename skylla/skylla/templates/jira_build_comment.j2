@@ -1,0 +1,13 @@
+Artefakty {% if build.url -%}
+[zbudowane|{{ build.url }}]
+{%- else -%}
+zbudowane
+{%- endif -%}
+{%- if build.log %} ([log|{{ build.log }}])
+{%- endif %} na podstawie
+{%- if change %} zmiany [{{ change.full_number }}|{{ change.url }}]
+{%- else -%}
+{%- if commit.url %} commitu [{{ commit.commit[:8] }}|{{ commit.url }}]
+{%- else %} commitu {{ commit.commit[:8] }}
+{%- endif -%}
+{%- endif %} są gotowe do instalacji.

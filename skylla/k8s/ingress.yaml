@@ -1,0 +1,22 @@
+apiVersion: extensions/v1beta1
+kind: Ingress
+metadata:
+  annotations:
+  name: skylla
+spec:
+  rules:
+  - host: zuul.dev.pekao.com.pl
+    http:
+      paths:
+      - backend:
+          serviceName: skylla
+          servicePort: 80
+        path: /build/completed
+  tls:
+  - hosts:
+    - zuul.dev.pekao.com.pl
+    secretName: access-cert
+status:
+  loadBalancer:
+    ingress:
+    - {}

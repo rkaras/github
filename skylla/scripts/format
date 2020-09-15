@@ -1,0 +1,6 @@
+#!/bin/sh -e
+
+isort --recursive  --force-single-line-imports skylla tests
+autoflake --recursive --remove-all-unused-imports --remove-unused-variables --in-place skylla tests
+black skylla tests
+isort --recursive skylla tests

@@ -1,0 +1,1848 @@
+{
+ "_byname": {
+  "field": {
+   "Account": "customfield_10704",
+   "Czas poświęcony": "timespent",
+   "Data i godzina rozpoczęcia": "customfield_11208",
+   "Data i godzina zakończenia": "customfield_11209",
+   "Development": "customfield_10000",
+   "Element konfiguracji": "customfield_12300",
+   "Epic Color": "customfield_10104",
+   "Epic Link": "customfield_10101",
+   "Epic Name": "customfield_10103",
+   "Epic Status": "customfield_10102",
+   "Etykiety": "labels",
+   "Flagged": "customfield_10500",
+   "Grupa": "customfield_11218",
+   "Głosy": "votes",
+   "ITCM": "customfield_12006",
+   "Informacje": "customfield_12613",
+   "Iteration": "customfield_10707",
+   "Klucz": "issuekey",
+   "Komentarz": "comment",
+   "Komponenty": "components",
+   "Niedostępność do": "customfield_11701",
+   "Niedostępność od": "customfield_11700",
+   "Obrazy": "thumbnail",
+   "Obserwatorzy": "watches",
+   "Oczekuje na (Grupy)": "customfield_11212",
+   "Odnośne wersje": "versions",
+   "Odrzucone przez (Grupy)": "customfield_11214",
+   "Opis": "description",
+   "Osoba przypisana": "assignee",
+   "Osoba zgłaszająca": "reporter",
+   "Ostatnio wyświetlane": "lastViewed",
+   "Pierwotne oszacowanie": "timeoriginalestimate",
+   "Podsumowanie": "summary",
+   "Podzadania": "subtasks",
+   "Postęp": "progress",
+   "Poziom zabezpieczeń": "security",
+   "Pozostało (oszacowanie)": "timeestimate",
+   "Połączone zgłoszenia": "issuelinks",
+   "Priorytet": "priority",
+   "Produkty IT": "customfield_12301",
+   "Projekt": "project",
+   "Rank": "customfield_10105",
+   "Rating": "customfield_12400",
+   "Rejestrowanie czasu": "timetracking",
+   "Rejestruj pracę": "worklog",
+   "Rodzaj": "customfield_11207",
+   "Rozwiązane": "resolutiondate",
+   "Rozwiązanie": "resolution",
+   "Sprint": "customfield_10100",
+   "Status": "status",
+   "Story Points": "customfield_10106",
+   "Stosunek pracy": "workratio",
+   "Team": "customfield_10300",
+   "Team Role": "customfield_10706",
+   "Tempo Team": "customfield_10705",
+   "Termin": "duedate",
+   "Twórca": "creator",
+   "Typ zgłoszenia": "issuetype",
+   "User": "customfield_11500",
+   "Users": "customfield_11219",
+   "Utworzono": "created",
+   "Wartość": "customfield_11203",
+   "Wersja naprawy": "fixVersions",
+   "Wpływ na": "customfield_11210",
+   "Właściciele": "customfield_10700",
+   "Zakres": "customfield_12101",
+   "Zaktualizowano": "updated",
+   "Zatwierdzone przez (Grupy)": "customfield_11213",
+   "Zatwierdzone przez (Osoba)": "customfield_12005",
+   "Załącznik": "attachment",
+   "issueFunction": "customfield_10200",
+   "Środowisko": "environment",
+   "Σ Czas poświęcony": "aggregatetimespent",
+   "Σ Pierwotne oszacowanie": "aggregatetimeoriginalestimate",
+   "Σ Postęp": "aggregateprogress",
+   "Σ Pozostało (oszacowanie)": "aggregatetimeestimate"
+  },
+  "issuetype": {
+   "Archiwum": "10100",
+   "Błąd": "10004",
+   "Epik": "10000",
+   "Historyjka": "10001",
+   "Podzadanie": "10003",
+   "Wymaganie": "10200",
+   "Zadanie": "10002",
+   "Zmiana": "10101"
+  },
+  "status": {
+   "Akceptacja": "10401",
+   "Archiwum": "10300",
+   "Backlog": "10000",
+   "Definiowanie": "10200",
+   "Deployment": "10402",
+   "Do developmentu": "10001",
+   "Do poprawy": "10400",
+   "Do zrobienia": "10104",
+   "Gotowe": "10102",
+   "Otwarty": "1",
+   "Ponownie otwarty": "4",
+   "Rozwiązane": "5",
+   "Testy": "10301",
+   "W toku": "3",
+   "Wdrożenie": "10201",
+   "Weryfikacja": "10101",
+   "Wstrzymany": "10100",
+   "Wykonane": "10002",
+   "Zamknięte": "6"
+  },
+  "user": {
+   "jira_tech_gerrit": "JIRAUSER34136"
+  }
+ },
+ "_collections": {
+  "field": "name",
+  "issuetype": "name",
+  "status": "name",
+  "user": "name"
+ },
+ "_methods": {
+  "REL": {
+   "transitions": {
+    "expand": "transitions",
+    "transitions": [
+     {
+      "id": "61",
+      "name": "Done",
+      "to": {
+       "description": " ",
+       "iconUrl": "https://jira.cn.in.pekao.com.pl/",
+       "id": "10002",
+       "name": "Wykonane",
+       "self": "https://jira.cn.in.pekao.com.pl/rest/api/2/status/10002",
+       "statusCategory": {
+        "colorName": "green",
+        "id": 3,
+        "key": "done",
+        "name": "Gotowe",
+        "self": "https://jira.cn.in.pekao.com.pl/rest/api/2/statuscategory/3"
+       }
+      }
+     },
+     {
+      "id": "71",
+      "name": "In Progress",
+      "to": {
+       "description": "",
+       "iconUrl": "https://jira.cn.in.pekao.com.pl/images/icons/statuses/inprogress.png",
+       "id": "3",
+       "name": "W toku",
+       "self": "https://jira.cn.in.pekao.com.pl/rest/api/2/status/3",
+       "statusCategory": {
+        "colorName": "yellow",
+        "id": 4,
+        "key": "indeterminate",
+        "name": "W toku",
+        "self": "https://jira.cn.in.pekao.com.pl/rest/api/2/statuscategory/4"
+       }
+      }
+     },
+     {
+      "id": "81",
+      "name": "To Do",
+      "to": {
+       "description": "",
+       "iconUrl": "https://jira.cn.in.pekao.com.pl/",
+       "id": "10104",
+       "name": "Do zrobienia",
+       "self": "https://jira.cn.in.pekao.com.pl/rest/api/2/status/10104",
+       "statusCategory": {
+        "colorName": "blue-gray",
+        "id": 2,
+        "key": "new",
+        "name": "Do zrobienia",
+        "self": "https://jira.cn.in.pekao.com.pl/rest/api/2/statuscategory/2"
+       }
+      }
+     },
+     {
+      "id": "101",
+      "name": "In Review",
+      "to": {
+       "description": " ",
+       "iconUrl": "https://jira.cn.in.pekao.com.pl/images/icons/statuses/generic.png",
+       "id": "10101",
+       "name": "Weryfikacja",
+       "self": "https://jira.cn.in.pekao.com.pl/rest/api/2/status/10101",
+       "statusCategory": {
+        "colorName": "yellow",
+        "id": 4,
+        "key": "indeterminate",
+        "name": "W toku",
+        "self": "https://jira.cn.in.pekao.com.pl/rest/api/2/statuscategory/4"
+       }
+      }
+     },
+     {
+      "id": "111",
+      "name": "Ready",
+      "to": {
+       "description": " ",
+       "iconUrl": "https://jira.cn.in.pekao.com.pl/images/icons/statuses/generic.png",
+       "id": "10102",
+       "name": "Gotowe",
+       "self": "https://jira.cn.in.pekao.com.pl/rest/api/2/status/10102",
+       "statusCategory": {
+        "colorName": "yellow",
+        "id": 4,
+        "key": "indeterminate",
+        "name": "W toku",
+        "self": "https://jira.cn.in.pekao.com.pl/rest/api/2/statuscategory/4"
+       }
+      }
+     },
+     {
+      "id": "121",
+      "name": "In Test",
+      "to": {
+       "description": " ",
+       "iconUrl": "https://jira.cn.in.pekao.com.pl/",
+       "id": "10301",
+       "name": "Testy",
+       "self": "https://jira.cn.in.pekao.com.pl/rest/api/2/status/10301",
+       "statusCategory": {
+        "colorName": "yellow",
+        "id": 4,
+        "key": "indeterminate",
+        "name": "W toku",
+        "self": "https://jira.cn.in.pekao.com.pl/rest/api/2/statuscategory/4"
+       }
+      }
+     },
+     {
+      "id": "131",
+      "name": "Release",
+      "to": {
+       "description": " ",
+       "iconUrl": "https://jira.cn.in.pekao.com.pl/images/icons/statuses/generic.png",
+       "id": "10201",
+       "name": "Wdrożenie",
+       "self": "https://jira.cn.in.pekao.com.pl/rest/api/2/status/10201",
+       "statusCategory": {
+        "colorName": "green",
+        "id": 3,
+        "key": "done",
+        "name": "Gotowe",
+        "self": "https://jira.cn.in.pekao.com.pl/rest/api/2/statuscategory/3"
+       }
+      }
+     }
+    ]
+   }
+  }
+ },
+ "field": {
+  "aggregateprogress": {
+   "clauseNames": [],
+   "custom": false,
+   "id": "aggregateprogress",
+   "name": "Σ Postęp",
+   "navigable": true,
+   "orderable": false,
+   "schema": {
+    "system": "aggregateprogress",
+    "type": "progress"
+   },
+   "searchable": false
+  },
+  "aggregatetimeestimate": {
+   "clauseNames": [],
+   "custom": false,
+   "id": "aggregatetimeestimate",
+   "name": "Σ Pozostało (oszacowanie)",
+   "navigable": true,
+   "orderable": false,
+   "schema": {
+    "system": "aggregatetimeestimate",
+    "type": "number"
+   },
+   "searchable": false
+  },
+  "aggregatetimeoriginalestimate": {
+   "clauseNames": [],
+   "custom": false,
+   "id": "aggregatetimeoriginalestimate",
+   "name": "Σ Pierwotne oszacowanie",
+   "navigable": true,
+   "orderable": false,
+   "schema": {
+    "system": "aggregatetimeoriginalestimate",
+    "type": "number"
+   },
+   "searchable": false
+  },
+  "aggregatetimespent": {
+   "clauseNames": [],
+   "custom": false,
+   "id": "aggregatetimespent",
+   "name": "Σ Czas poświęcony",
+   "navigable": true,
+   "orderable": false,
+   "schema": {
+    "system": "aggregatetimespent",
+    "type": "number"
+   },
+   "searchable": false
+  },
+  "assignee": {
+   "clauseNames": [
+    "assignee"
+   ],
+   "custom": false,
+   "id": "assignee",
+   "name": "Osoba przypisana",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "system": "assignee",
+    "type": "user"
+   },
+   "searchable": true
+  },
+  "attachment": {
+   "clauseNames": [
+    "attachments"
+   ],
+   "custom": false,
+   "id": "attachment",
+   "name": "Załącznik",
+   "navigable": false,
+   "orderable": true,
+   "schema": {
+    "items": "attachment",
+    "system": "attachment",
+    "type": "array"
+   },
+   "searchable": true
+  },
+  "comment": {
+   "clauseNames": [
+    "comment"
+   ],
+   "custom": false,
+   "id": "comment",
+   "name": "Komentarz",
+   "navigable": false,
+   "orderable": true,
+   "schema": {
+    "system": "comment",
+    "type": "comments-page"
+   },
+   "searchable": true
+  },
+  "components": {
+   "clauseNames": [
+    "component"
+   ],
+   "custom": false,
+   "id": "components",
+   "name": "Komponenty",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "items": "component",
+    "system": "components",
+    "type": "array"
+   },
+   "searchable": true
+  },
+  "created": {
+   "clauseNames": [
+    "created",
+    "createdDate"
+   ],
+   "custom": false,
+   "id": "created",
+   "name": "Utworzono",
+   "navigable": true,
+   "orderable": false,
+   "schema": {
+    "system": "created",
+    "type": "datetime"
+   },
+   "searchable": true
+  },
+  "creator": {
+   "clauseNames": [
+    "creator"
+   ],
+   "custom": false,
+   "id": "creator",
+   "name": "Twórca",
+   "navigable": true,
+   "orderable": false,
+   "schema": {
+    "system": "creator",
+    "type": "user"
+   },
+   "searchable": true
+  },
+  "customfield_10000": {
+   "clauseNames": [
+    "cf[10000]",
+    "Development"
+   ],
+   "custom": true,
+   "id": "customfield_10000",
+   "name": "Development",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugins.jira-development-integration-plugin:devsummary",
+    "customId": 10000,
+    "type": "any"
+   },
+   "searchable": true
+  },
+  "customfield_10100": {
+   "clauseNames": [
+    "cf[10100]",
+    "Sprint"
+   ],
+   "custom": true,
+   "id": "customfield_10100",
+   "name": "Sprint",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.pyxis.greenhopper.jira:gh-sprint",
+    "customId": 10100,
+    "items": "string",
+    "type": "array"
+   },
+   "searchable": true
+  },
+  "customfield_10101": {
+   "clauseNames": [
+    "cf[10101]",
+    "Epic Link"
+   ],
+   "custom": true,
+   "id": "customfield_10101",
+   "name": "Epic Link",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.pyxis.greenhopper.jira:gh-epic-link",
+    "customId": 10101,
+    "type": "any"
+   },
+   "searchable": true
+  },
+  "customfield_10102": {
+   "clauseNames": [
+    "cf[10102]",
+    "Epic Status"
+   ],
+   "custom": true,
+   "id": "customfield_10102",
+   "name": "Epic Status",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.pyxis.greenhopper.jira:gh-epic-status",
+    "customId": 10102,
+    "type": "option"
+   },
+   "searchable": true
+  },
+  "customfield_10103": {
+   "clauseNames": [
+    "cf[10103]",
+    "Epic Name"
+   ],
+   "custom": true,
+   "id": "customfield_10103",
+   "name": "Epic Name",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.pyxis.greenhopper.jira:gh-epic-label",
+    "customId": 10103,
+    "type": "string"
+   },
+   "searchable": true
+  },
+  "customfield_10104": {
+   "clauseNames": [
+    "cf[10104]",
+    "Epic Color"
+   ],
+   "custom": true,
+   "id": "customfield_10104",
+   "name": "Epic Color",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.pyxis.greenhopper.jira:gh-epic-color",
+    "customId": 10104,
+    "type": "string"
+   },
+   "searchable": true
+  },
+  "customfield_10105": {
+   "clauseNames": [
+    "cf[10105]",
+    "Rank"
+   ],
+   "custom": true,
+   "id": "customfield_10105",
+   "name": "Rank",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.pyxis.greenhopper.jira:gh-lexo-rank",
+    "customId": 10105,
+    "type": "any"
+   },
+   "searchable": true
+  },
+  "customfield_10106": {
+   "clauseNames": [
+    "cf[10106]",
+    "Story Points"
+   ],
+   "custom": true,
+   "id": "customfield_10106",
+   "name": "Story Points",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:float",
+    "customId": 10106,
+    "type": "number"
+   },
+   "searchable": true
+  },
+  "customfield_10200": {
+   "clauseNames": [
+    "cf[10200]",
+    "issueFunction"
+   ],
+   "custom": true,
+   "id": "customfield_10200",
+   "name": "issueFunction",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.onresolve.jira.groovy.groovyrunner:jqlFunctionsCustomFieldType",
+    "customId": 10200,
+    "type": "any"
+   },
+   "searchable": true
+  },
+  "customfield_10300": {
+   "clauseNames": [
+    "cf[10300]",
+    "Team"
+   ],
+   "custom": true,
+   "id": "customfield_10300",
+   "name": "Team",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "customId": 10300,
+    "type": "option"
+   },
+   "searchable": true
+  },
+  "customfield_10500": {
+   "clauseNames": [
+    "cf[10500]",
+    "Flagged"
+   ],
+   "custom": true,
+   "id": "customfield_10500",
+   "name": "Flagged",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multicheckboxes",
+    "customId": 10500,
+    "items": "option",
+    "type": "array"
+   },
+   "searchable": true
+  },
+  "customfield_10700": {
+   "clauseNames": [
+    "cf[10700]",
+    "Owners"
+   ],
+   "custom": true,
+   "id": "customfield_10700",
+   "name": "Właściciele",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multiuserpicker",
+    "customId": 10700,
+    "items": "user",
+    "type": "array"
+   },
+   "searchable": true
+  },
+  "customfield_10704": {
+   "clauseNames": [
+    "Account",
+    "cf[10704]"
+   ],
+   "custom": true,
+   "id": "customfield_10704",
+   "name": "Account",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.tempoplugin.tempo-accounts:accounts.customfield",
+    "customId": 10704,
+    "type": "account"
+   },
+   "searchable": true
+  },
+  "customfield_10705": {
+   "clauseNames": [
+    "cf[10705]",
+    "Tempo Team"
+   ],
+   "custom": true,
+   "id": "customfield_10705",
+   "name": "Tempo Team",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.tempoplugin.tempo-teams:team.customfield",
+    "customId": 10705,
+    "type": "string"
+   },
+   "searchable": true
+  },
+  "customfield_10706": {
+   "clauseNames": [
+    "cf[10706]",
+    "Team Role"
+   ],
+   "custom": true,
+   "id": "customfield_10706",
+   "name": "Team Role",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.tempoplugin.tempo-teams:team.role.customfield",
+    "customId": 10706,
+    "type": "string"
+   },
+   "searchable": true
+  },
+  "customfield_10707": {
+   "clauseNames": [
+    "cf[10707]",
+    "Iteration"
+   ],
+   "custom": true,
+   "id": "customfield_10707",
+   "name": "Iteration",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.tempoplugin.tempo-plan-core:tp.iteration.customfield",
+    "customId": 10707,
+    "type": "string"
+   },
+   "searchable": true
+  },
+  "customfield_11203": {
+   "clauseNames": [
+    "cf[11203]",
+    "Value"
+   ],
+   "custom": true,
+   "id": "customfield_11203",
+   "name": "Wartość",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "customId": 11203,
+    "type": "option"
+   },
+   "searchable": true
+  },
+  "customfield_11207": {
+   "clauseNames": [
+    "cf[11207]"
+   ],
+   "custom": true,
+   "id": "customfield_11207",
+   "name": "Rodzaj",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:select",
+    "customId": 11207,
+    "type": "option"
+   },
+   "searchable": true
+  },
+  "customfield_11208": {
+   "clauseNames": [
+    "cf[11208]",
+    "Start time"
+   ],
+   "custom": true,
+   "id": "customfield_11208",
+   "name": "Data i godzina rozpoczęcia",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datetime",
+    "customId": 11208,
+    "type": "datetime"
+   },
+   "searchable": true
+  },
+  "customfield_11209": {
+   "clauseNames": [
+    "cf[11209]",
+    "End time"
+   ],
+   "custom": true,
+   "id": "customfield_11209",
+   "name": "Data i godzina zakończenia",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datetime",
+    "customId": 11209,
+    "type": "datetime"
+   },
+   "searchable": true
+  },
+  "customfield_11210": {
+   "clauseNames": [
+    "cf[11210]",
+    "Impact"
+   ],
+   "custom": true,
+   "id": "customfield_11210",
+   "name": "Wpływ na",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+    "customId": 11210,
+    "type": "string"
+   },
+   "searchable": true
+  },
+  "customfield_11212": {
+   "clauseNames": [
+    "Approvers (Groups)",
+    "cf[11212]"
+   ],
+   "custom": true,
+   "id": "customfield_11212",
+   "name": "Oczekuje na (Grupy)",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multigrouppicker",
+    "customId": 11212,
+    "items": "group",
+    "type": "array"
+   },
+   "searchable": true
+  },
+  "customfield_11213": {
+   "clauseNames": [
+    "Approved (Groups)",
+    "cf[11213]"
+   ],
+   "custom": true,
+   "id": "customfield_11213",
+   "name": "Zatwierdzone przez (Grupy)",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multigrouppicker",
+    "customId": 11213,
+    "items": "group",
+    "type": "array"
+   },
+   "searchable": true
+  },
+  "customfield_11214": {
+   "clauseNames": [
+    "cf[11214]",
+    "Rejected (Groups)"
+   ],
+   "custom": true,
+   "id": "customfield_11214",
+   "name": "Odrzucone przez (Grupy)",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multigrouppicker",
+    "customId": 11214,
+    "items": "group",
+    "type": "array"
+   },
+   "searchable": true
+  },
+  "customfield_11218": {
+   "clauseNames": [
+    "cf[11218]",
+    "Group"
+   ],
+   "custom": true,
+   "id": "customfield_11218",
+   "name": "Grupa",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:grouppicker",
+    "customId": 11218,
+    "type": "group"
+   },
+   "searchable": true
+  },
+  "customfield_11219": {
+   "clauseNames": [
+    "cf[11219]",
+    "Users"
+   ],
+   "custom": true,
+   "id": "customfield_11219",
+   "name": "Users",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multiuserpicker",
+    "customId": 11219,
+    "items": "user",
+    "type": "array"
+   },
+   "searchable": true
+  },
+  "customfield_11500": {
+   "clauseNames": [
+    "cf[11500]",
+    "User"
+   ],
+   "custom": true,
+   "id": "customfield_11500",
+   "name": "User",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+    "customId": 11500,
+    "type": "string"
+   },
+   "searchable": true
+  },
+  "customfield_11700": {
+   "clauseNames": [
+    "cf[11700]",
+    "Unavailability start"
+   ],
+   "custom": true,
+   "id": "customfield_11700",
+   "name": "Niedostępność od",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datetime",
+    "customId": 11700,
+    "type": "datetime"
+   },
+   "searchable": true
+  },
+  "customfield_11701": {
+   "clauseNames": [
+    "cf[11701]",
+    "Unavailability end"
+   ],
+   "custom": true,
+   "id": "customfield_11701",
+   "name": "Niedostępność do",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:datetime",
+    "customId": 11701,
+    "type": "datetime"
+   },
+   "searchable": true
+  },
+  "customfield_12005": {
+   "clauseNames": [
+    "Approved (Users)",
+    "cf[12005]"
+   ],
+   "custom": true,
+   "id": "customfield_12005",
+   "name": "Zatwierdzone przez (Osoba)",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multiuserpicker",
+    "customId": 12005,
+    "items": "user",
+    "type": "array"
+   },
+   "searchable": true
+  },
+  "customfield_12006": {
+   "clauseNames": [
+    "cf[12006]",
+    "ITCM"
+   ],
+   "custom": true,
+   "id": "customfield_12006",
+   "name": "ITCM",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multiuserpicker",
+    "customId": 12006,
+    "items": "user",
+    "type": "array"
+   },
+   "searchable": true
+  },
+  "customfield_12101": {
+   "clauseNames": [
+    "cf[12101]",
+    "Range"
+   ],
+   "custom": true,
+   "id": "customfield_12101",
+   "name": "Zakres",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:multiselect",
+    "customId": 12101,
+    "items": "option",
+    "type": "array"
+   },
+   "searchable": true
+  },
+  "customfield_12300": {
+   "clauseNames": [
+    "cf[12300]",
+    "Configuration Items"
+   ],
+   "custom": true,
+   "id": "customfield_12300",
+   "name": "Element konfiguracji",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+    "customId": 12300,
+    "type": "string"
+   },
+   "searchable": true
+  },
+  "customfield_12301": {
+   "clauseNames": [
+    "Applications",
+    "cf[12301]"
+   ],
+   "custom": true,
+   "id": "customfield_12301",
+   "name": "Produkty IT",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textarea",
+    "customId": 12301,
+    "type": "string"
+   },
+   "searchable": true
+  },
+  "customfield_12400": {
+   "clauseNames": [
+    "cf[12400]",
+    "Rating"
+   ],
+   "custom": true,
+   "id": "customfield_12400",
+   "name": "Rating",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:float",
+    "customId": 12400,
+    "type": "number"
+   },
+   "searchable": true
+  },
+  "customfield_12613": {
+   "clauseNames": [
+    "cf[12613]",
+    "Information"
+   ],
+   "custom": true,
+   "id": "customfield_12613",
+   "name": "Informacje",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "custom": "com.atlassian.jira.plugin.system.customfieldtypes:textfield",
+    "customId": 12613,
+    "type": "string"
+   },
+   "searchable": true
+  },
+  "description": {
+   "clauseNames": [
+    "description"
+   ],
+   "custom": false,
+   "id": "description",
+   "name": "Opis",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "system": "description",
+    "type": "string"
+   },
+   "searchable": true
+  },
+  "duedate": {
+   "clauseNames": [
+    "due",
+    "duedate"
+   ],
+   "custom": false,
+   "id": "duedate",
+   "name": "Termin",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "system": "duedate",
+    "type": "date"
+   },
+   "searchable": true
+  },
+  "environment": {
+   "clauseNames": [
+    "environment"
+   ],
+   "custom": false,
+   "id": "environment",
+   "name": "Środowisko",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "system": "environment",
+    "type": "string"
+   },
+   "searchable": true
+  },
+  "fixVersions": {
+   "clauseNames": [
+    "fixVersion"
+   ],
+   "custom": false,
+   "id": "fixVersions",
+   "name": "Wersja naprawy",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "items": "version",
+    "system": "fixVersions",
+    "type": "array"
+   },
+   "searchable": true
+  },
+  "issuekey": {
+   "clauseNames": [
+    "id",
+    "issue",
+    "issuekey",
+    "key"
+   ],
+   "custom": false,
+   "id": "issuekey",
+   "name": "Klucz",
+   "navigable": true,
+   "orderable": false,
+   "searchable": false
+  },
+  "issuelinks": {
+   "clauseNames": [],
+   "custom": false,
+   "id": "issuelinks",
+   "name": "Połączone zgłoszenia",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "items": "issuelinks",
+    "system": "issuelinks",
+    "type": "array"
+   },
+   "searchable": true
+  },
+  "issuetype": {
+   "clauseNames": [
+    "issuetype",
+    "type"
+   ],
+   "custom": false,
+   "id": "issuetype",
+   "name": "Typ zgłoszenia",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "system": "issuetype",
+    "type": "issuetype"
+   },
+   "searchable": true
+  },
+  "labels": {
+   "clauseNames": [
+    "labels"
+   ],
+   "custom": false,
+   "id": "labels",
+   "name": "Etykiety",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "items": "string",
+    "system": "labels",
+    "type": "array"
+   },
+   "searchable": true
+  },
+  "lastViewed": {
+   "clauseNames": [
+    "lastViewed"
+   ],
+   "custom": false,
+   "id": "lastViewed",
+   "name": "Ostatnio wyświetlane",
+   "navigable": true,
+   "orderable": false,
+   "schema": {
+    "system": "lastViewed",
+    "type": "datetime"
+   },
+   "searchable": false
+  },
+  "priority": {
+   "clauseNames": [
+    "priority"
+   ],
+   "custom": false,
+   "id": "priority",
+   "name": "Priorytet",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "system": "priority",
+    "type": "priority"
+   },
+   "searchable": true
+  },
+  "progress": {
+   "clauseNames": [
+    "progress"
+   ],
+   "custom": false,
+   "id": "progress",
+   "name": "Postęp",
+   "navigable": true,
+   "orderable": false,
+   "schema": {
+    "system": "progress",
+    "type": "progress"
+   },
+   "searchable": false
+  },
+  "project": {
+   "clauseNames": [
+    "project"
+   ],
+   "custom": false,
+   "id": "project",
+   "name": "Projekt",
+   "navigable": true,
+   "orderable": false,
+   "schema": {
+    "system": "project",
+    "type": "project"
+   },
+   "searchable": true
+  },
+  "reporter": {
+   "clauseNames": [
+    "reporter"
+   ],
+   "custom": false,
+   "id": "reporter",
+   "name": "Osoba zgłaszająca",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "system": "reporter",
+    "type": "user"
+   },
+   "searchable": true
+  },
+  "resolution": {
+   "clauseNames": [
+    "resolution"
+   ],
+   "custom": false,
+   "id": "resolution",
+   "name": "Rozwiązanie",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "system": "resolution",
+    "type": "resolution"
+   },
+   "searchable": true
+  },
+  "resolutiondate": {
+   "clauseNames": [
+    "resolutiondate",
+    "resolved"
+   ],
+   "custom": false,
+   "id": "resolutiondate",
+   "name": "Rozwiązane",
+   "navigable": true,
+   "orderable": false,
+   "schema": {
+    "system": "resolutiondate",
+    "type": "datetime"
+   },
+   "searchable": true
+  },
+  "security": {
+   "clauseNames": [
+    "level"
+   ],
+   "custom": false,
+   "id": "security",
+   "name": "Poziom zabezpieczeń",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "system": "security",
+    "type": "securitylevel"
+   },
+   "searchable": true
+  },
+  "status": {
+   "clauseNames": [
+    "status"
+   ],
+   "custom": false,
+   "id": "status",
+   "name": "Status",
+   "navigable": true,
+   "orderable": false,
+   "schema": {
+    "system": "status",
+    "type": "status"
+   },
+   "searchable": true
+  },
+  "subtasks": {
+   "clauseNames": [
+    "subtasks"
+   ],
+   "custom": false,
+   "id": "subtasks",
+   "name": "Podzadania",
+   "navigable": true,
+   "orderable": false,
+   "schema": {
+    "items": "issuelinks",
+    "system": "subtasks",
+    "type": "array"
+   },
+   "searchable": false
+  },
+  "summary": {
+   "clauseNames": [
+    "summary"
+   ],
+   "custom": false,
+   "id": "summary",
+   "name": "Podsumowanie",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "system": "summary",
+    "type": "string"
+   },
+   "searchable": true
+  },
+  "thumbnail": {
+   "clauseNames": [],
+   "custom": false,
+   "id": "thumbnail",
+   "name": "Obrazy",
+   "navigable": true,
+   "orderable": false,
+   "searchable": false
+  },
+  "timeestimate": {
+   "clauseNames": [
+    "remainingEstimate",
+    "timeestimate"
+   ],
+   "custom": false,
+   "id": "timeestimate",
+   "name": "Pozostało (oszacowanie)",
+   "navigable": true,
+   "orderable": false,
+   "schema": {
+    "system": "timeestimate",
+    "type": "number"
+   },
+   "searchable": false
+  },
+  "timeoriginalestimate": {
+   "clauseNames": [
+    "originalEstimate",
+    "timeoriginalestimate"
+   ],
+   "custom": false,
+   "id": "timeoriginalestimate",
+   "name": "Pierwotne oszacowanie",
+   "navigable": true,
+   "orderable": false,
+   "schema": {
+    "system": "timeoriginalestimate",
+    "type": "number"
+   },
+   "searchable": false
+  },
+  "timespent": {
+   "clauseNames": [
+    "timespent"
+   ],
+   "custom": false,
+   "id": "timespent",
+   "name": "Czas poświęcony",
+   "navigable": true,
+   "orderable": false,
+   "schema": {
+    "system": "timespent",
+    "type": "number"
+   },
+   "searchable": false
+  },
+  "timetracking": {
+   "clauseNames": [],
+   "custom": false,
+   "id": "timetracking",
+   "name": "Rejestrowanie czasu",
+   "navigable": false,
+   "orderable": true,
+   "schema": {
+    "system": "timetracking",
+    "type": "timetracking"
+   },
+   "searchable": true
+  },
+  "updated": {
+   "clauseNames": [
+    "updated",
+    "updatedDate"
+   ],
+   "custom": false,
+   "id": "updated",
+   "name": "Zaktualizowano",
+   "navigable": true,
+   "orderable": false,
+   "schema": {
+    "system": "updated",
+    "type": "datetime"
+   },
+   "searchable": true
+  },
+  "versions": {
+   "clauseNames": [
+    "affectedVersion"
+   ],
+   "custom": false,
+   "id": "versions",
+   "name": "Odnośne wersje",
+   "navigable": true,
+   "orderable": true,
+   "schema": {
+    "items": "version",
+    "system": "versions",
+    "type": "array"
+   },
+   "searchable": true
+  },
+  "votes": {
+   "clauseNames": [
+    "votes"
+   ],
+   "custom": false,
+   "id": "votes",
+   "name": "Głosy",
+   "navigable": true,
+   "orderable": false,
+   "schema": {
+    "system": "votes",
+    "type": "votes"
+   },
+   "searchable": false
+  },
+  "watches": {
+   "clauseNames": [
+    "watchers"
+   ],
+   "custom": false,
+   "id": "watches",
+   "name": "Obserwatorzy",
+   "navigable": true,
+   "orderable": false,
+   "schema": {
+    "system": "watches",
+    "type": "watches"
+   },
+   "searchable": false
+  },
+  "worklog": {
+   "clauseNames": [],
+   "custom": false,
+   "id": "worklog",
+   "name": "Rejestruj pracę",
+   "navigable": false,
+   "orderable": true,
+   "schema": {
+    "items": "worklog",
+    "system": "worklog",
+    "type": "array"
+   },
+   "searchable": true
+  },
+  "workratio": {
+   "clauseNames": [
+    "workratio"
+   ],
+   "custom": false,
+   "id": "workratio",
+   "name": "Stosunek pracy",
+   "navigable": true,
+   "orderable": false,
+   "schema": {
+    "system": "workratio",
+    "type": "number"
+   },
+   "searchable": true
+  }
+ },
+ "issuetype": {
+  "10000": {
+   "description": " ",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/images/icons/issuetypes/epic.svg",
+   "id": "10000",
+   "name": "Epik",
+   "self": "https+mock://jira/rest/api/2/issuetype/10000",
+   "subtask": false
+  },
+  "10001": {
+   "description": " ",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/images/icons/issuetypes/story.svg",
+   "id": "10001",
+   "name": "Historyjka",
+   "self": "https+mock://jira/rest/api/2/issuetype/10001",
+   "subtask": false
+  },
+  "10002": {
+   "avatarId": 10318,
+   "description": " ",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/secure/viewavatar?size=xsmall&avatarId=10318&avatarType=issuetype",
+   "id": "10002",
+   "name": "Zadanie",
+   "self": "https+mock://jira/rest/api/2/issuetype/10002",
+   "subtask": false
+  },
+  "10003": {
+   "avatarId": 10316,
+   "description": " ",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/secure/viewavatar?size=xsmall&avatarId=10316&avatarType=issuetype",
+   "id": "10003",
+   "name": "Podzadanie",
+   "self": "https+mock://jira/rest/api/2/issuetype/10003",
+   "subtask": true
+  },
+  "10004": {
+   "avatarId": 10303,
+   "description": " ",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/secure/viewavatar?size=xsmall&avatarId=10303&avatarType=issuetype",
+   "id": "10004",
+   "name": "Błąd",
+   "self": "https+mock://jira/rest/api/2/issuetype/10004",
+   "subtask": false
+  },
+  "10100": {
+   "avatarId": 10323,
+   "description": " ",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/secure/viewavatar?size=xsmall&avatarId=10323&avatarType=issuetype",
+   "id": "10100",
+   "name": "Archiwum",
+   "self": "https+mock://jira/rest/api/2/issuetype/10100",
+   "subtask": false
+  },
+  "10101": {
+   "avatarId": 10311,
+   "description": " ",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/secure/viewavatar?size=xsmall&avatarId=10311&avatarType=issuetype",
+   "id": "10101",
+   "name": "Zmiana",
+   "self": "https+mock://jira/rest/api/2/issuetype/10101",
+   "subtask": false
+  },
+  "10200": {
+   "avatarId": 10313,
+   "description": " ",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/secure/viewavatar?size=xsmall&avatarId=10313&avatarType=issuetype",
+   "id": "10200",
+   "name": "Wymaganie",
+   "self": "https+mock://jira/rest/api/2/issuetype/10200",
+   "subtask": false
+  }
+ },
+ "serverInfo": {
+  "baseUrl": "https+mock://jira",
+  "buildDate": "2020-04-22T00:00:00.000+0200",
+  "buildNumber": 808001,
+  "databaseBuildNumber": 808001,
+  "deploymentType": "Server",
+  "scmInfo": "e5cdcf9fa57df21d4b441572dda42ac58b826e01",
+  "serverTime": "2020-07-19T16:25:06.415+0200",
+  "serverTitle": "Jira",
+  "version": "8.8.1",
+  "versionNumbers": [
+   8,
+   8,
+   1
+  ]
+ },
+ "status": {
+  "1": {
+   "description": "",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/images/icons/statuses/open.png",
+   "id": "1",
+   "name": "Otwarty",
+   "self": "https+mock://jira/rest/api/2/status/1",
+   "statusCategory": {
+    "colorName": "blue-gray",
+    "id": 2,
+    "key": "new",
+    "name": "Do zrobienia",
+    "self": "https+mock://jira/rest/api/2/statuscategory/2"
+   }
+  },
+  "10000": {
+   "description": "",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/",
+   "id": "10000",
+   "name": "Backlog",
+   "self": "https+mock://jira/rest/api/2/status/10000",
+   "statusCategory": {
+    "colorName": "blue-gray",
+    "id": 2,
+    "key": "new",
+    "name": "Do zrobienia",
+    "self": "https+mock://jira/rest/api/2/statuscategory/2"
+   }
+  },
+  "10001": {
+   "description": " ",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/",
+   "id": "10001",
+   "name": "Do developmentu",
+   "self": "https+mock://jira/rest/api/2/status/10001",
+   "statusCategory": {
+    "colorName": "blue-gray",
+    "id": 2,
+    "key": "new",
+    "name": "Do zrobienia",
+    "self": "https+mock://jira/rest/api/2/statuscategory/2"
+   }
+  },
+  "10002": {
+   "description": " ",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/",
+   "id": "10002",
+   "name": "Wykonane",
+   "self": "https+mock://jira/rest/api/2/status/10002",
+   "statusCategory": {
+    "colorName": "green",
+    "id": 3,
+    "key": "done",
+    "name": "Gotowe",
+    "self": "https+mock://jira/rest/api/2/statuscategory/3"
+   }
+  },
+  "10100": {
+   "description": " ",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/images/icons/statuses/generic.png",
+   "id": "10100",
+   "name": "Wstrzymany",
+   "self": "https+mock://jira/rest/api/2/status/10100",
+   "statusCategory": {
+    "colorName": "yellow",
+    "id": 4,
+    "key": "indeterminate",
+    "name": "W toku",
+    "self": "https+mock://jira/rest/api/2/statuscategory/4"
+   }
+  },
+  "10101": {
+   "description": " ",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/images/icons/statuses/generic.png",
+   "id": "10101",
+   "name": "Weryfikacja",
+   "self": "https+mock://jira/rest/api/2/status/10101",
+   "statusCategory": {
+    "colorName": "yellow",
+    "id": 4,
+    "key": "indeterminate",
+    "name": "W toku",
+    "self": "https+mock://jira/rest/api/2/statuscategory/4"
+   }
+  },
+  "10102": {
+   "description": " ",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/images/icons/statuses/generic.png",
+   "id": "10102",
+   "name": "Gotowe",
+   "self": "https+mock://jira/rest/api/2/status/10102",
+   "statusCategory": {
+    "colorName": "yellow",
+    "id": 4,
+    "key": "indeterminate",
+    "name": "W toku",
+    "self": "https+mock://jira/rest/api/2/statuscategory/4"
+   }
+  },
+  "10104": {
+   "description": "",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/",
+   "id": "10104",
+   "name": "Do zrobienia",
+   "self": "https+mock://jira/rest/api/2/status/10104",
+   "statusCategory": {
+    "colorName": "blue-gray",
+    "id": 2,
+    "key": "new",
+    "name": "Do zrobienia",
+    "self": "https+mock://jira/rest/api/2/statuscategory/2"
+   }
+  },
+  "10200": {
+   "description": " ",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/images/icons/statuses/generic.png",
+   "id": "10200",
+   "name": "Definiowanie",
+   "self": "https+mock://jira/rest/api/2/status/10200",
+   "statusCategory": {
+    "colorName": "blue-gray",
+    "id": 2,
+    "key": "new",
+    "name": "Do zrobienia",
+    "self": "https+mock://jira/rest/api/2/statuscategory/2"
+   }
+  },
+  "10201": {
+   "description": " ",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/images/icons/statuses/generic.png",
+   "id": "10201",
+   "name": "Wdrożenie",
+   "self": "https+mock://jira/rest/api/2/status/10201",
+   "statusCategory": {
+    "colorName": "green",
+    "id": 3,
+    "key": "done",
+    "name": "Gotowe",
+    "self": "https+mock://jira/rest/api/2/statuscategory/3"
+   }
+  },
+  "10300": {
+   "description": " ",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/images/icons/statuses/generic.png",
+   "id": "10300",
+   "name": "Archiwum",
+   "self": "https+mock://jira/rest/api/2/status/10300",
+   "statusCategory": {
+    "colorName": "green",
+    "id": 3,
+    "key": "done",
+    "name": "Gotowe",
+    "self": "https+mock://jira/rest/api/2/statuscategory/3"
+   }
+  },
+  "10301": {
+   "description": " ",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/",
+   "id": "10301",
+   "name": "Testy",
+   "self": "https+mock://jira/rest/api/2/status/10301",
+   "statusCategory": {
+    "colorName": "yellow",
+    "id": 4,
+    "key": "indeterminate",
+    "name": "W toku",
+    "self": "https+mock://jira/rest/api/2/statuscategory/4"
+   }
+  },
+  "10400": {
+   "description": " ",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/images/icons/statuses/generic.png",
+   "id": "10400",
+   "name": "Do poprawy",
+   "self": "https+mock://jira/rest/api/2/status/10400",
+   "statusCategory": {
+    "colorName": "yellow",
+    "id": 4,
+    "key": "indeterminate",
+    "name": "W toku",
+    "self": "https+mock://jira/rest/api/2/statuscategory/4"
+   }
+  },
+  "10401": {
+   "description": " ",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/images/icons/statuses/generic.png",
+   "id": "10401",
+   "name": "Akceptacja",
+   "self": "https+mock://jira/rest/api/2/status/10401",
+   "statusCategory": {
+    "colorName": "yellow",
+    "id": 4,
+    "key": "indeterminate",
+    "name": "W toku",
+    "self": "https+mock://jira/rest/api/2/statuscategory/4"
+   }
+  },
+  "10402": {
+   "description": "",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/images/icons/statuses/generic.png",
+   "id": "10402",
+   "name": "Deployment",
+   "self": "https+mock://jira/rest/api/2/status/10402",
+   "statusCategory": {
+    "colorName": "yellow",
+    "id": 4,
+    "key": "indeterminate",
+    "name": "W toku",
+    "self": "https+mock://jira/rest/api/2/statuscategory/4"
+   }
+  },
+  "3": {
+   "description": "",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/images/icons/statuses/inprogress.png",
+   "id": "3",
+   "name": "W toku",
+   "self": "https+mock://jira/rest/api/2/status/3",
+   "statusCategory": {
+    "colorName": "yellow",
+    "id": 4,
+    "key": "indeterminate",
+    "name": "W toku",
+    "self": "https+mock://jira/rest/api/2/statuscategory/4"
+   }
+  },
+  "4": {
+   "description": "",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/images/icons/statuses/reopened.png",
+   "id": "4",
+   "name": "Ponownie otwarty",
+   "self": "https+mock://jira/rest/api/2/status/4",
+   "statusCategory": {
+    "colorName": "blue-gray",
+    "id": 2,
+    "key": "new",
+    "name": "Do zrobienia",
+    "self": "https+mock://jira/rest/api/2/statuscategory/2"
+   }
+  },
+  "5": {
+   "description": "!!!NOT FOR USE!!!",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/images/icons/statuses/resolved.png",
+   "id": "5",
+   "name": "Rozwiązane",
+   "self": "https+mock://jira/rest/api/2/status/5",
+   "statusCategory": {
+    "colorName": "green",
+    "id": 3,
+    "key": "done",
+    "name": "Gotowe",
+    "self": "https+mock://jira/rest/api/2/statuscategory/3"
+   }
+  },
+  "6": {
+   "description": "!!!NOT FOR USE!!!",
+   "iconUrl": "https://jira.cn.in.pekao.com.pl/images/icons/statuses/closed.png",
+   "id": "6",
+   "name": "Zamknięte",
+   "self": "https+mock://jira/rest/api/2/status/6",
+   "statusCategory": {
+    "colorName": "green",
+    "id": 3,
+    "key": "done",
+    "name": "Gotowe",
+    "self": "https+mock://jira/rest/api/2/statuscategory/3"
+   }
+  }
+ },
+ "user": {
+  "JIRAUSER34136": {
+   "active": true,
+   "avatarUrls": {
+    "16x16": "https://jira.cn.in.pekao.com.pl/secure/useravatar?size=xsmall&ownerId=JIRAUSER34136&avatarId=14604",
+    "24x24": "https://jira.cn.in.pekao.com.pl/secure/useravatar?size=small&ownerId=JIRAUSER34136&avatarId=14604",
+    "32x32": "https://jira.cn.in.pekao.com.pl/secure/useravatar?size=medium&ownerId=JIRAUSER34136&avatarId=14604",
+    "48x48": "https://jira.cn.in.pekao.com.pl/secure/useravatar?ownerId=JIRAUSER34136&avatarId=14604"
+   },
+   "displayName": "Gerrit Bot",
+   "emailAddress": "jira_tech_gerrit@pekao.com.pl",
+   "key": "JIRAUSER34136",
+   "locale": "pl_PL",
+   "name": "jira_tech_gerrit",
+   "self": "https://jira.cn.in.pekao.com.pl/rest/api/2/user?username=jira_tech_gerrit",
+   "timeZone": "Europe/Warsaw"
+  }
+ }
+}

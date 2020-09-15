@@ -1,0 +1,19 @@
+---
+- job:
+    name: testjob
+    parent: build-docker-image
+    description: Just test for now
+    vars:
+      docker_mirror_base_url: https://pakiety.dev.pekao.com.pl/yum-docker
+      docker_images:
+        - context: .
+          repository: pekao/skylla
+          registry: poligon.docker.dev.pekao.com.pl
+
+- project:
+    check:
+      jobs:
+        - testjob
+    gate:
+      jobs:
+        - testjob

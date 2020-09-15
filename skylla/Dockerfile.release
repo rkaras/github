@@ -1,0 +1,6 @@
+FROM base AS skylla
+
+COPY --from=skylla-build /app/env /app/env
+USER 35003:35003
+EXPOSE 8000/tcp
+CMD ["/app/env/bin/skylla"]

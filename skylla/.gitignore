@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+*$py.class
+
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+
+.mypy_cache/

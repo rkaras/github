@@ -1,0 +1,75 @@
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: skylla
+  labels:
+    app: skylla
+    env: test
+    division: aic
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: skylla
+      env: test
+  template:
+    metadata:
+      labels:
+        app: skylla
+        env: test
+        division: aic
+      annotations:
+        prometheus.io/scrape: 'true'
+        prometheus.io/port: '8000'
+        prometheus.io/path: '/metrics'
+    spec:
+      containers:
+        - name: skylla
+          image: mcpt0.docker.dev.pekao.com.pl/pekao/skylla:latest
+          ports:
+            - name: appport
+              containerPort: 8000
+          env:
+            - name: SKYLLA_CONFIG
+              value: /etc/skylla/skylla.conf
+            - name: GERRIT_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: skylla
+                  key: gerrit_password
+            - name: JIRA_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: skylla
+                  key: jira_password
+            - name: ARTIFACTORY_PASSWORD
+              valueFrom:
+                secretKeyRef:
+                  name: skylla
+                  key: artifactory_password
+            - name: SENTRY_DSN
+              valueFrom:
+                secretKeyRef:
+                  name: skylla
+                  key: sentry_dsn
+          volumeMounts:
+            - name: config
+              mountPath: /etc/skylla
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "250m"
+            limits:
+              memory: "256Mi"
+              cpu: "1"
+          livenessProbe:
+            httpGet:
+              path: /healthcheck
+              port: appport
+            initialDelaySeconds: 3
+            periodSeconds: 3
+      volumes:
+        - name: config
+          configMap:
+            name: skylla-config

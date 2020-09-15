@@ -1,0 +1,11 @@
+---
+
+- project:
+    templates:
+      - docker-project
+    vars:
+      registry: mcpt0.docker.dev.pekao.com.pl
+      release_dockerfile: Dockerfile.release
+      docker_tests:
+        - cmd: "PATH=/app/env/bin:$PATH ./scripts/lint"
+        - cmd: "PATH=/app/env/bin:$PATH ./scripts/test tests"

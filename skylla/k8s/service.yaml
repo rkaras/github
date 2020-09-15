@@ -1,0 +1,21 @@
+---
+kind: Service
+apiVersion: v1
+metadata:
+  annotations:
+  labels:
+    app: skylla
+    env: test
+    division: aic
+  name: skylla
+spec:
+  type: ClusterIP
+  ports:
+    - name: http
+      port: 80
+      protocol: TCP
+      targetPort: 8000
+  selector:
+    app: skylla
+    env: test
+  sessionAffinity: None
