@@ -3,7 +3,7 @@ name = "skylla"
 version = "1.2.0"
 description = "Release management integration service"
 authors = ["Michał Suszko <michal.suszko@pekao.com.pl>"]
-repository = "https://gerrit.dev.pekao.com.pl/admin/repos/infra/skylla"
+repository = "https://pypi.org/simple/"
 license = "proprietary"
 packages = [
   { include = "skylla" }
@@ -43,7 +43,7 @@ forkos = 'skylla.forkos:run'
 
 [[tool.poetry.source]]
 name = "pakiety"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 default = true
 
 [build-system]

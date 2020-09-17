@@ -19,7 +19,7 @@ speedups = ["aiodns", "brotlipy", "cchardet"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -32,7 +32,7 @@ version = "1.5"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -45,7 +45,7 @@ version = "1.4.4"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -58,7 +58,7 @@ version = "3.0.1"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -72,7 +72,7 @@ version = "1.4.0"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -91,7 +91,7 @@ tests = ["coverage", "hypothesis", "pympler", "pytest (>=4.3.0)", "six", "zope.i
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -107,7 +107,7 @@ pyflakes = ">=1.1.0"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -132,7 +132,7 @@ d = ["aiohttp (>=3.3.2)", "aiohttp-cors"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -145,7 +145,7 @@ version = "2020.6.20"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -158,7 +158,7 @@ version = "3.0.4"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -171,7 +171,7 @@ version = "7.1.2"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -185,7 +185,7 @@ version = "0.4.3"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -201,7 +201,7 @@ toml = ["toml"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -214,7 +214,7 @@ version = "0.6.0"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -233,7 +233,7 @@ testing = ["pre-commit"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -256,7 +256,7 @@ test = ["pytest (5.4.3)", "pytest-cov (2.10.0)", "mypy (0.782)", "black (19.10b0
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -274,7 +274,7 @@ pyflakes = ">=2.2.0,<2.3.0"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -287,7 +287,7 @@ version = "0.9.0"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -304,7 +304,7 @@ hyperframe = ">=5.2.0,<6"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -317,7 +317,7 @@ version = "3.0.0"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -330,7 +330,7 @@ version = "2020.7.17"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -348,7 +348,7 @@ sniffio = ">=1.0.0,<2.0.0"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -365,7 +365,7 @@ test = ["Cython (0.29.14)"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -387,7 +387,7 @@ sniffio = "*"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -400,7 +400,7 @@ version = "5.2.0"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -413,7 +413,7 @@ version = "2.10"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -432,7 +432,7 @@ xdg_home = ["appdirs (>=1.4.0)"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -451,7 +451,7 @@ i18n = ["Babel (>=0.8)"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -482,7 +482,7 @@ opt = ["filemagic (>=1.6)", "pyjwt", "requests-jwt", "requests-kerberos"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -495,7 +495,7 @@ version = "1.1.1"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -508,7 +508,7 @@ version = "0.6.1"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -521,7 +521,7 @@ version = "8.4.0"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -534,7 +534,7 @@ version = "4.7.6"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -555,7 +555,7 @@ dmypy = ["psutil (>=4.0)"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -568,7 +568,7 @@ version = "0.4.3"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -586,7 +586,7 @@ signedtoken = ["cryptography", "pyjwt (>=1.0.0)"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -603,7 +603,7 @@ six = "*"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -616,7 +616,7 @@ version = "0.8.0"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -629,7 +629,7 @@ version = "5.4.5"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -651,7 +651,7 @@ trafaret = ["trafaret (>=1.2.0)"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -667,7 +667,7 @@ dev = ["pre-commit", "tox"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -683,7 +683,7 @@ twisted = ["twisted"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -696,7 +696,7 @@ version = "1.9.0"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -709,7 +709,7 @@ version = "2.6.0"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -727,7 +727,7 @@ typing_extensions = ["typing-extensions (>=3.7.2)"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -740,7 +740,7 @@ version = "2.2.0"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -753,7 +753,7 @@ version = "2.4.7"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -780,7 +780,7 @@ testing = ["argcomplete", "hypothesis (>=3.56)", "mock", "nose", "requests", "xm
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -799,7 +799,7 @@ testing = ["async-generator (>=1.3)", "coverage", "hypothesis (>=5.7.1)"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -816,7 +816,7 @@ pytest = ">=2.2"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -836,7 +836,7 @@ testing = ["fields", "hunter", "process-tests (2.0.2)", "six", "pytest-xdist", "
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -849,7 +849,7 @@ version = "2020.1"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -862,7 +862,7 @@ version = "5.3.1"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -875,7 +875,7 @@ version = "2020.7.14"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -898,7 +898,7 @@ socks = ["PySocks (>=1.5.6,<1.5.7 || >1.5.7)", "win-inet-pton"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -918,7 +918,7 @@ rsa = ["oauthlib (>=3.0.0)"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -934,7 +934,7 @@ requests = ">=2.0.1,<3.0.0"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -950,7 +950,7 @@ idna2008 = ["idna"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -981,7 +981,7 @@ tornado = ["tornado (>=5)"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -994,7 +994,7 @@ version = "1.15.0"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -1007,7 +1007,7 @@ version = "1.1.0"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -1023,7 +1023,7 @@ full = ["aiofiles", "graphene", "itsdangerous", "jinja2", "python-multipart", "p
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -1040,7 +1040,7 @@ starlette = ">=0.12.2"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -1053,7 +1053,7 @@ version = "0.10.1"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -1066,7 +1066,7 @@ version = "1.4.1"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -1079,7 +1079,7 @@ version = "3.7.4.2"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -1097,7 +1097,7 @@ socks = ["PySocks (>=1.5.6,<1.5.7 || >1.5.7,<2.0)"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -1120,7 +1120,7 @@ watchgodreload = ["watchgod (>=0.6,<0.7)"]
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -1134,7 +1134,7 @@ version = "0.14.0"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "dev"
@@ -1147,7 +1147,7 @@ version = "0.2.5"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -1160,7 +1160,7 @@ version = "8.1"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [[package]]
 category = "main"
@@ -1177,7 +1177,7 @@ multidict = ">=4.0"
 [package.source]
 reference = "pakiety"
 type = "legacy"
-url = "https://pakiety.dev.pekao.com.pl/api/pypi/pypi/simple"
+url = "https://pypi.org/simple/"
 
 [metadata]
 content-hash = "57cc6814ccb7fb7ddf1a8d253558c91236f22439a631f1d1509e16394846fdef"
